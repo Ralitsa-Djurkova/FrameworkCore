@@ -45,9 +45,18 @@
                  })
                  .ToArray();
 
-            foreach(var album in albumsInfo)
+            foreach (var album in albumsInfo)
             {
+                sb.
+                    AppendLine($"-AlbumName: {album.AlbumsName}")
+                    .AppendLine($"-ReleaseDate: {album.ReleasData}")
+                    .AppendLine($"-ProducerName: {album.ProduserName}")
+                    .AppendLine($"-Songs: ");
 
+                foreach (var song in album.Song)
+                {
+
+                }
             }
         }
 
