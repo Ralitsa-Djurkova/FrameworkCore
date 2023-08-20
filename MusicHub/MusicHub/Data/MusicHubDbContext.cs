@@ -14,7 +14,7 @@
         {
         }
         public DbSet<Album> Albums { get; set; }
-        public DbSet<Performer> Performsers { get; set; }
+        public DbSet<Performer> Performers { get; set; }
         public DbSet<Producer> Producers { get; set; }
         public DbSet<Song> Songs { get; set; }
         public DbSet<SongPerformer> SongsPerformers { get; set; }
